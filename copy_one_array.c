@@ -13,11 +13,11 @@ int main(){
     printf("\n");
     for(i=0;i<n;i++){
         arr2[i]=arr1[i];
-        printf("  %d",arr2[i]);
+       // printf("  %d",arr2[i]);
     }
-    // printf("array2:");
-    // for(i=0;i<n;i++){
-    //     printf("%d",arr2[i]);
-    // }
+     printf("array2:");
+     for(i=0;i<n;i++){
+         printf("%d",arr2[i]);
+     }
     return 0;
 }
